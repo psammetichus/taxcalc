@@ -21,7 +21,7 @@ def calctax(tdata, incomes):
     return nn[1,:]
 
 
-simple_sample = taxdata(  brackets = [ (0.,0.1), (30000., 0.25), (100000., 0.33)],
+simple_sample = taxdata(  brackets = [ (30000., 0.25), (100000., 0.33), (0.,0.1)],
                     deduction = 10000 )
 
 
